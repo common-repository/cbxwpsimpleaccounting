@@ -1,0 +1,21 @@
+/*
+//help taken from https://formden.com/blog/isolate-bootstrap
+//comment line: lessc customaccountingbs.less ./css/customaccountingbs.css
+//then manually search and replace from file css/bootstrap-theme.css "#customaccounting body", and "#customaccounting html" with just  "#customaccounting"
+#customaccounting{
+	@import (less) 'css/bootstrap.css';
+  	@import (less) 'css/bootstrap-theme.css';
+  	@import (less) 'tabs_left_right_below.less';
+
+
+}*/
+
+//help taken from https://formden.com/blog/isolate-bootstrap
+//comment line: lessc cbxwpsimpleaccountingbs.less ./css/cbxwpsimpleaccountingbs.css
+//then manually search and replace from file css/bootstrap-theme.css "#cbxwpsimpleaccounting body", and "#cbxwpsimpleaccounting html" with just  "#cbxwpsimpleaccounting"
+#cbxwpsimpleaccounting, .cbxwpsimpleaccounting {
+  @import  (less) 'css/bootstrap.css';
+  @import  (less) 'flat/bootstrap-flat.css';
+  @import  (less) 'flat/bootstrap-flat-extras.css';
+  @import (less) 'tabs_left_right_below.less';
+}
